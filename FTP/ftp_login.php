@@ -1,6 +1,8 @@
 <?php
+// FTP LOGIN
 
 // Creamos variables con los datos del servidor FTP y nuestros datos de acceso
+// Estos datos se pueden configurar en el Manager de nuestro servidor
 $ftpHost = 'ftp.midominioweb.com';
 $ftpUsername = 'usuarioftp';
 $ftpPassword = '*****';

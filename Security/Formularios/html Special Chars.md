@@ -1,0 +1,1 @@
+sirve para blindar los campos de formularios en PHP para evitar inyeccion de codigo maligno

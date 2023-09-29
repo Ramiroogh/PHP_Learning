@@ -1,5 +1,5 @@
 # Operador de Ámbito ::
-Tambien llamado "Resolución de Ámbito", se utiliza principalmente para trabajar con miembros estáticos de una clase.
+Tambien llamado "Resolución de Ámbito" o de **Alcance**, se utiliza principalmente para trabajar con miembros estáticos de una clase.
 
 En la programación orientada a objetos (POO), las clases son plantillas que definen cómo deben comportarse los objetos que se crean a partir de ellas. Una clase puede contener propiedades (variables) y métodos (funciones) para operar en esas propiedades. En PHP, las clases pueden tener miembros estáticos, que son propiedades o métodos que pertenecen a la clase en sí misma, no a las instancias individuales de esa clase.
 

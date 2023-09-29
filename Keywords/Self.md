@@ -33,3 +33,10 @@ $objeto = new MiClase();
 echo $objeto->obtenerPropiedadEstatica();  // Esto funciona correctamente
 ```
 En resumen, self es una palabra clave que se utiliza para acceder a miembros estáticos dentro de una clase. Te permite referenciar propiedades y métodos estáticos sin necesidad de crear una instancia de la clase.
+
+### Diferencia entre 'self y ::'
++ **self** es una palabra clave que se utiliza dentro de una clase para hacer referencia a la propia clase. Se utiliza principalmente para acceder a propiedades y métodos estáticos de la clase actual. Por ejemplo, si tienes una propiedad estática llamada $nombre dentro de una clase, puedes acceder a ella utilizando self::$nombre.
+
++ **::** es el operador de resolución de ámbito en PHP. Se utiliza para acceder a elementos estáticos de una clase, como propiedades y métodos estáticos, sin necesidad de crear una instancia de la clase . Por ejemplo, si tienes una clase llamada MiClase con un método estático llamado miMetodo, puedes acceder a él utilizando MiClase::miMetodo().
+
+En resumen, self se utiliza para hacer referencia a la propia clase dentro de la clase, mientras que :: se utiliza para acceder a elementos estáticos de una clase desde fuera de la clase.
